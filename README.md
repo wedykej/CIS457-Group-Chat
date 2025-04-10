@@ -1,5 +1,4 @@
-# CIS457-Group-Chat
-Chat Application - Real-time Multi-User Group Chat
+Real-time Multi-User Group Chat
 
 This project is a real-time multi-user group chat application implemented in Python using sockets and threading. It allows users to connect to a central server, communicate with each other in a chatroom, and interact with features like sending messages, listing active users, and using emojis. The server handles multiple client connections simultaneously, broadcasting messages to all connected users except the sender.
 
@@ -26,9 +25,17 @@ Threading: Each client operates in its own thread, allowing for simultaneous han
 Datetime: Timestamps are used to log when messages are sent.
 
 How It Works:
-Server: The server listens for incoming client connections. Upon accepting a connection, it assigns a nickname to the client and starts a thread to handle their messages. The server broadcasts all user messages (except the sender's) to every other client.
+Server:
+The server listens for incoming client connections.
 
-Client: Each client connects to the server, chooses a nickname, and enters a loop to send and receive messages. Clients can use special commands to interact with the chat, such as /list to see active users and /exit to leave the chat.
+Upon accepting a connection, it assigns a nickname to the client and starts a thread to handle their messages.
+
+The server broadcasts all user messages (except the sender's) to every other client.
+
+Client:
+Each client connects to the server, chooses a nickname, and enters a loop to send and receive messages.
+
+Clients can use special commands to interact with the chat, such as /list to see active users and /exit to leave the chat.
 
 Commands:
 /help: Displays a list of available commands.
