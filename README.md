@@ -1,5 +1,6 @@
 # CIS457-Group-Chat
 Chat Application - Real-time Multi-User Group Chat
+
 This project is a real-time multi-user group chat application implemented in Python using sockets and threading. It allows users to connect to a central server, communicate with each other in a chatroom, and interact with features like sending messages, listing active users, and using emojis. The server handles multiple client connections simultaneously, broadcasting messages to all connected users except the sender.
 
 Features:
