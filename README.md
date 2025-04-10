@@ -51,4 +51,5 @@ Commands:
 
 
 I, Josh Wedyke, completed this assignment by myself
+
 https://github.com/wedykej/CIS457-Group-Chat.git 
