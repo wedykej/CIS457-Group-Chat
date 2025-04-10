@@ -9,7 +9,7 @@ Real-time Messaging: Users can send messages to the group, and the messages are 
 
 Nickname Assignment: Clients must choose a unique nickname upon connecting to the server.
 
-Emoji Support: Simple emoji shortcuts like :), :(, and <3 are automatically replaced with their corresponding emoji images.
+Emoji Support: Simple emoji shortcuts like :), :(, :3, and <3 are automatically replaced with their corresponding emoji images.
 
 User Management: Users can see a list of active participants in the chatroom using the /list command.
 
