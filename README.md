@@ -4,7 +4,7 @@
 This project is a real-time multi-user group chat application implemented in Python using sockets and threading. It allows users to connect to a central server, communicate with each other in a chatroom, and interact with features like sending messages, listing active users, and using emojis. The server handles multiple client connections simultaneously, broadcasting messages to all connected users except the sender.
 
 
-Features:
+# # Features:
 Real-time Messaging: Users can send messages to the group, and the messages are broadcast to all active users (except the sender).
 
 Nickname Assignment: Clients must choose a unique nickname upon connecting to the server.
