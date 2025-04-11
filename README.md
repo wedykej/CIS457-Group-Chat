@@ -50,6 +50,19 @@ Commands:
 /exit: Exits the chatroom and disconnects the client from the server.
 
 
+
+
+How To Run
+Server:
+In Command Prompt: cd "Path/To/Directory"
+                   python server.py
+
+Client:
+In Command Prompt: cd "Path/To/Directory"
+                   python client.py
+
+
+
 I, Josh Wedyke, completed this assignment by myself
 
 https://github.com/wedykej/CIS457-Group-Chat.git 
