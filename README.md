@@ -4,7 +4,7 @@
 This project is a real-time multi-user group chat application implemented in Python using sockets and threading. It allows users to connect to a central server, communicate with each other in a chatroom, and interact with features like sending messages, listing active users, and using emojis. The server handles multiple client connections simultaneously, broadcasting messages to all connected users except the sender.
 
 
-# # Features:
+## Features:
 Real-time Messaging: Users can send messages to the group, and the messages are broadcast to all active users (except the sender).
 
 Nickname Assignment: Clients must choose a unique nickname upon connecting to the server.
@@ -18,7 +18,7 @@ Exit Command: Users can exit the chat by typing /exit, which removes them from t
 Multi-client Support: The server can handle multiple clients simultaneously, with each client running in its own thread.
 
 
-Technologies Used:
+## Technologies Used:
 Python: The application is written in Python.
 
 Socket Programming: Communication between the server and clients is handled using TCP sockets.
@@ -28,7 +28,7 @@ Threading: Each client operates in its own thread, allowing for simultaneous han
 Datetime: Timestamps are used to log when messages are sent.
 
 
-How It Works:
+## How It Works:
 Server:
 The server listens for incoming client connections.
 
@@ -42,7 +42,7 @@ Each client connects to the server, chooses a nickname, and enters a loop to sen
 Clients can use special commands to interact with the chat, such as /list to see active users and /exit to leave the chat.
 
 
-Commands:
+## Commands:
 /help: Displays a list of available commands.
 
 /list: Lists all active users in the chatroom.
@@ -52,7 +52,7 @@ Commands:
 
 
 
-How To Run
+## How To Run
 Server:
 In Command Prompt: cd "Path/To/Directory"
                    python server.py
@@ -60,7 +60,7 @@ In Command Prompt: cd "Path/To/Directory"
 Client:
 In Command Prompt: cd "Path/To/Directory"
                    python client.py
-
+  
 
 
 I, Josh Wedyke, completed this assignment by myself
