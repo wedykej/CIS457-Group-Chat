@@ -54,15 +54,15 @@ Clients can use special commands to interact with the chat, such as /list to see
 
 ## How To Run
 Server:
-In Command Prompt: cd "Path/To/Directory"
+In Command Prompt: cd "Path/To/Directory"  
                    python server.py
 
 Client:
-In Command Prompt: cd "Path/To/Directory"
-                   python client.py
+In Command Prompt: cd "Path/To/Directory"  
+                   python client.py  
   
 
-
+#
 I, Josh Wedyke, completed this assignment by myself
 
 https://github.com/wedykej/CIS457-Group-Chat.git 
